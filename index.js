@@ -277,7 +277,7 @@ fs.readFile('./object.json', async function (err, data) {
             })
         })
     }
-})
+)
 
 function escapeRegex(str) {
     return str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
